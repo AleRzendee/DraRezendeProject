@@ -1,0 +1,18 @@
+/* manual framework att.3 */
+
+@media (min-width: 768px) {
+    
+    body {
+        counter-reset: none;
+
+        display: flex;
+        flex-flow: column wrap content;
+    }
+}
+
+.midia_top, .container, .footer {
+    display: flex;
+    flex-flow: row nowrap;
+    
+    width: inherit;
+}

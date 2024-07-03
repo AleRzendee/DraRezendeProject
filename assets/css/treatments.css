@@ -1,0 +1,124 @@
+#treatments { 
+    display: flex; 
+
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.side_list { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+
+    /* border: #000000 1px solid; */
+    /* margin: 10px; */
+    padding: 20px;
+} 
+
+/* .side_box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+    border: #000000 1px solid;
+    margin-left: 200;
+    margin-left: 200;
+    padding: 40px;
+} */
+
+/* list sheet */
+.side_list ul {
+    padding-left: 0px;
+}
+
+.side_list ul li {
+    list-style: none;
+    
+}
+
+/* General button style */
+.btn {
+    width: 300px;
+    border: none;
+    /* font-family: 'Lato'; */
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    
+    
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    margin-bottom: 12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  /* Pseudo elements for icons */
+  .btn:before {
+    font-family: 'FontAwesome';
+    /* speak: none; */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  
+  /* Icon separator */
+  .btn-sep {
+    padding: 25px 60px 25px 120px;
+  }
+  
+  .btn-sep:before {
+    background: rgba(0,0,0,0.15);
+  }
+  
+  /* Button 1 */
+  .btn-1 {
+    background: var(--step-purple);
+    color: #fff;
+  }
+  
+  .btn-1:hover {
+    background: var(--step-brown);
+    color: #fff;
+  }
+  
+  .btn-1:active {
+    background: var(--light-blush);
+    top: 2px;
+  }
+  
+  .btn-1:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+  }
+
+  .icon-info:before {
+    content: "\f05a";
+  }

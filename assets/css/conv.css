@@ -1,0 +1,57 @@
+
+#title-conv {
+    font-family:'Roboto', sans-serif;
+      font-weight: 600;
+      font-size: 54px;
+    letter-spacing: 0.5px;  
+
+  display: inline-block;
+  margin: 2rem 0 1rem 360px;
+  text-align: center;
+}
+
+#title-conv span {
+    font-family:'Playwrite US Trad', cursive;
+      font-weight: 600;
+      font-size: 48px;
+    letter-spacing: 0px;  
+}
+
+#conv {
+    display: flex;
+
+    background-color: var(--step-brown);
+}
+.conv-icon {
+    display: flex;
+    
+    /* border: 2px solid #000000; */
+
+}
+
+.conv-imgs {
+    display: flex;
+    flex-flow: row wrap;
+    pad: 10px;
+    align-items: center;
+
+    /* border: 2px solid #000000; */
+}
+
+.conv-imgs img:first-child {
+    width: 400px;
+    height: 100px;
+    margin: 50px 0px 0px 230px;
+    
+
+}
+
+.conv-imgs img:last-child {
+    width: 400px;
+    height: 100px;
+    margin-left: 230px;
+    margin-bottom: 50px;
+} 
+
+.conv-imgs img:hover { transform: scale(1.2); }
+
