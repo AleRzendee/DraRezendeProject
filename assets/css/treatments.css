@@ -122,3 +122,17 @@
   .icon-info:before {
     content: "\f05a";
   }
+
+  /* 48em = 768px */
+  @media screen and (max-width: 48em){ 
+
+    #treatments {
+      display: block;
+    } 
+
+    .side_list {
+      display: block;
+      padding-left: 110px;
+    }
+    
+  }
